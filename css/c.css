@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 1;
+  }
+  
+
+
+h2 em {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2 strong {
+	font-style: italic;
+	
+}
+
+body
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+        
+}
+
+/*headers*/
+.header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/liverpoll.jpg);
+	height:80vh;
+	background-position:center;
+	background-size:cover;
+}
+
+.header2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/liverpoll\ 11.jpg);
+	height:60vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+.navbar-brand {
+font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+
+
+
+.navbar .navbar-nav .nav-item a{
+	color:#3A3B3B;
+}
+
+.header-button .btn{
+    
+margin-top:40vh;
+}
+
+
+.row {
+  margin: 15px;
+}
+
+.nav-link {
+	cursor:pointer;
+}
+
+/*footer*/
+.footer{
+padding-top:30px;
+padding-bottom:30px;
+color:black;
+
+}
+
+
+.social-icon a{
+	margin:0 16px 20px 16px;
+	display:inline-block;
+}
+
+.social-icon .fa{
+
+	color:black;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background:lightgray;
+	line-height: 2;
+	transition: .3s;
+	border:10px solid lightgray;
+}
+
+.social-icon a:hover .fa{
+	border:10px solid black;
+}
+
+.bordernow{
+	width:80px;
+	border-bottom:2px solid white;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+.rating {
+	display: inline-block;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: center;
+}
+
+.rating > span {
+	display: inline-block;
+	position: relative;
+	width: 1.1em;
+	font-size: 20px;
+	color: #777777;
+	cursor: pointer;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+	content: "\2605";
+	position: absolute;
+	color: #ffcf2e;
+}
+.map {
+position: relative;
+padding-bottom: 56.25%; /* Ratio d'aspect 16:9 pour la hauteur de l'iframe */
+padding-top: 30px; /* Marge supérieure facultative */
+height: 0;
+overflow: hidden;
+}
+
+.map iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 70%;
+}
+.gallery-img {
+width: 100%;
+height: auto;
+object-fit: cover;
+clip-path: ellipse(42% 48% at 50% 50%);
+border: 4px solid #fff;
+transition: transform 0.3s ease-in-out;
+height : 35% ;
+}
+
+.gallery-img:hover {
+transform: scale(1.05);
+}
